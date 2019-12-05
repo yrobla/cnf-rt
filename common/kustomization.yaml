@@ -1,0 +1,6 @@
+resources:
+- manifests/00_node_definitions.yaml
+- manifests/01_machine_config_pool-worker-rt.yaml
+- manifests/02_kubelet_config.yaml
+- manifests/06-mc-rtkernel-worker-rt.yaml
+

@@ -1,0 +1,8 @@
+resources:
+- ../../common
+patchesJson6902:
+- path: 00_nodes/00_node_definitions.yaml
+  target:
+    version: v1
+    kind: Node
+    name: cluster-worker-0
